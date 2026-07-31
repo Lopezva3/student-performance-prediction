@@ -254,30 +254,31 @@ Rather than silently excluding these variables, they are reported as **separate 
 ```
 student-performance-prediction/
 │
-├── student_performance_analysis.ipynb    Full analysis notebook
-├── student_performance_analysis.py       Source code export
+├── README.md                                  This file
+├── Data_Visualization_and_Machine_Learning_
+│   Fundamentals.ipynb                         Full analysis notebook
 │
-├── README.md                             This file
-├── ACCURACY_REPORT.md                    Detailed metrics report
-├── metrics.json                          Machine-readable results
-├── requirements.txt                      Dependencies
-│
-├── data/
-│   └── student_math_clean.csv            Cleaned dataset (395 rows)
-│
-└── figures/
-    ├── target_analysis.png               Target distribution & class balance
-    ├── correlation_heatmap.png           Feature correlation matrix
-    ├── regression_diagnostics.png        Residuals, coefficients, fit
-    ├── decision_tree.png                 Trained tree visualisation
-    ├── classifier_evaluation.png         Confusion matrices & ROC curves
-    ├── one_rule_analysis.png             Single-threshold justification
+└── student_performance/
     │
-    ├── interactive_g1_vs_g3.html         Plotly — hover for student profiles
-    ├── interactive_model_comparison.html Plotly — benchmark chart
-    └── interactive_trajectory.html       Plotly — grade paths by outcome
+    ├── ACCURACY_REPORT.md                     Detailed metrics report
+    ├── metrics.json                           Machine-readable results
+    ├── requirements.txt                       Dependencies
+    │
+    ├── data/
+    │   └── student_math_clean.csv             Cleaned dataset (395 rows)
+    │
+    └── figures/
+        ├── target_analysis.png                Target distribution & class balance
+        ├── correlation_heatmap.png            Feature correlation matrix
+        ├── regression_diagnostics.png         Residuals, coefficients, fit
+        ├── decision_tree.png                  Trained tree visualisation
+        ├── classifier_evaluation.png          Confusion matrices & ROC curves
+        ├── one_rule_analysis.png              Single-threshold justification
+        │
+        ├── interactive_g1_vs_g3.html          Plotly — hover for student profiles
+        ├── interactive_model_comparison.html  Plotly — benchmark chart
+        └── interactive_trajectory.html        Plotly — grade paths by outcome
 ```
-
 ---
 
 ## Reproduction
@@ -287,7 +288,7 @@ git clone https://github.com/Lopezva3/student-performance-prediction.git
 cd student-performance-prediction
 
 pip install -r requirements.txt
-jupyter notebook student_performance_analysis.ipynb
+jupyter notebook Data_Visualization_and_Machine_Learning_Fundamentals.ipynb
 ```
 
 All results use `random_state=42` and an 80/20 stratified split. Cross-validation uses `StratifiedKFold(n_splits=5, shuffle=True)`.
