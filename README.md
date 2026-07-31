@@ -13,6 +13,8 @@
 
 **Author:** Valeria López
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Valeria_López-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/valeria-l%C3%B3pez-44186035b)
+
 </div>
 
 ---
@@ -316,8 +318,10 @@ Dataset available from the [UCI Machine Learning Repository](https://archive.ics
 
 <div align="center">
 
-**Valeria López** · 2026
+### Valeria López
 
-*Data Visualization and Machine Learning Fundamentals*
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/valeria-l%C3%B3pez-44186035b)
+
+*Data Visualization and Machine Learning Fundamentals* · 2026
 
 </div>
